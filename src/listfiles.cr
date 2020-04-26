@@ -8,7 +8,7 @@ directory = "."
 
 # Parse command line arguments
 OptionParser.parse do |parser|
-  parser.banner = "Usage: listdirs [arguments]"
+  parser.banner = "Usage: listfiles [arguments]"
   parser.on("-d PATH", "--dir=PATH", "Specifies the directory to list files") { |path| directory = path }
   parser.on("-h", "--help", "Show this help") do
     puts parser
